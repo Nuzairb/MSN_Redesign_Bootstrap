@@ -9354,7 +9354,7 @@ body {
 
 .md-news-card {
   width: 100%;
-  height: 250px;
+  height: 290px;
   background-image: url(/assets/img/sarfaraz.jpeg); }
   .md-news-card a {
     font-size: 24px; }
@@ -9364,6 +9364,7 @@ body {
 
 .sm-news-card {
   width: 100%;
+  height: 100px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9382,7 +9383,7 @@ body {
   background-color: #fff; }
   .sm-news-card img {
     width: 40%;
-    height: 80px; }
+    height: 100%; }
   .sm-news-card .text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9396,15 +9397,14 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .sm-news-card .text a.title {
-      font-size: 12px;
-      margin-top: 10px; }
+      font-size: 12px; }
     .sm-news-card .text a.source {
       font-size: 12px;
       font-weight: bold;
       margin-bottom: 10px; }
 
 .mdl-news-card {
-  height: 350px;
+  height: 310px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9415,13 +9415,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 5px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  margin: 10px 0 0px 0;
-  background-color: #fff; }
+  background-color: #fff;
+  border: 5px solid #fff; }
   .mdl-news-card img {
-    height: 70%; }
+    height: 60%; }
   .mdl-news-card .text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9443,24 +9442,24 @@ body {
       margin-bottom: 5px; }
 
 .news-card-list {
-  height: 350px;
-  margin: 10px 0 0 0;
+  height: 305px;
   background-color: #fff;
-  padding-left: 10px; }
+  padding-left: 10px;
+  margin-top: 5px; }
   .news-card-list ul {
     list-style-type: none;
     margin: 0;
     padding: 0; }
     .news-card-list ul li {
       border-bottom: 1px solid #000;
-      margin-bottom: 10px;
-      padding-bottom: 10px; }
+      margin-bottom: 7px;
+      padding-bottom: 7px; }
       .news-card-list ul li:last-child {
         border: none; }
       .news-card-list ul li a {
         text-decoration: none;
         color: #000;
-        font-size: 15px; }
+        font-size: 12px; }
 
 .main-title {
   display: -webkit-box;
