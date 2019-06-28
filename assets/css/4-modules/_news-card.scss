@@ -8,6 +8,7 @@
     justify-content: flex-end;
     padding: 20px;
     transition: all .3s ease;
+    border: 5px solid #fff;
     a {
         font-size: 28px;
         line-height: 28px;
@@ -25,7 +26,7 @@
 
 .md-news-card {
     width: 100%;
-    height: 280px;
+    height: 250px;
     background-image: url(/assets/img/sarfaraz.jpeg);
     a {
         font-size: 24px;
@@ -45,7 +46,8 @@
     flex-direction: row;
     padding: 5px;
     transition: all .3s ease;
-    margin: 10px 0 10px 0;
+    margin: 5px 0 0 0;
+    border: 5px solid #fff;
     background-color: #fff;
     img {
         width: 40%;
@@ -64,6 +66,62 @@
             font-size: 12px;
             font-weight: bold;
             margin-bottom: 10px;
+        }
+    }
+}
+
+.mdl-news-card {
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    transition: all .3s ease;
+    margin: 10px 0 0px 0;
+    background-color: #fff;
+    img {
+        height: 70%;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        justify-content: space-between;
+        a.title {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        a.source {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.news-card-list {
+    height: 350px;
+    margin: 10px 0 0 0;
+    background-color: #fff;
+    padding-left: 10px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+            border-bottom: 1px solid #000;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            &:last-child {
+                border: none;
+            }
+            a {
+                text-decoration: none;
+                color: #000;
+                font-size: 15px;
+            }
         }
     }
 }
