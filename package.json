@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wowthemesnet/bootstrap-4-boilerplate"
+    "url": ""
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
