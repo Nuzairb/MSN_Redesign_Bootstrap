@@ -9321,10 +9321,8 @@ body {
     padding-left: 5px;
     font-size: 14px; }
 
-.bg-news-card {
+.news-card {
   width: 100%;
-  height: 400px;
-  background-image: url(/assets/img/bg-news-img-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9341,8 +9339,27 @@ body {
   padding: 20px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease; }
-  .bg-news-card a {
-    font-size: 28px; }
+  .news-card a {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px 0 0 0; }
+
+.bg-news-card {
+  width: 100%;
+  height: 400px;
+  background-image: url(/assets/img/bg-news-img-1.jpg); }
+
+.md-news-card {
+  width: 100%;
+  height: 250px;
+  background-image: url(/assets/img/sarfaraz.jpeg); }
+  .md-news-card a {
+    font-size: 24px; }
+
+.md-news-card--2 {
+  background-image: url(/assets/img/sarfaraz2.jpeg); }
 
 .container {
   max-width: 1280px; }
