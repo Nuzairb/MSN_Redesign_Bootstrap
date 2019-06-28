@@ -9353,13 +9353,53 @@ body {
 
 .md-news-card {
   width: 100%;
-  height: 250px;
+  height: 280px;
   background-image: url(/assets/img/sarfaraz.jpeg); }
   .md-news-card a {
     font-size: 24px; }
 
 .md-news-card--2 {
   background-image: url(/assets/img/sarfaraz2.jpeg); }
+
+.sm-news-card {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  margin: 10px 0 10px 0;
+  background-color: #fff; }
+  .sm-news-card img {
+    width: 40%;
+    height: 100px; }
+  .sm-news-card .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .sm-news-card .text a.title {
+      font-size: 12px;
+      margin-top: 10px; }
+    .sm-news-card .text a.source {
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 10px; }
 
 .container {
   max-width: 1280px; }

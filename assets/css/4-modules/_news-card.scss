@@ -25,7 +25,7 @@
 
 .md-news-card {
     width: 100%;
-    height: 250px;
+    height: 280px;
     background-image: url(/assets/img/sarfaraz.jpeg);
     a {
         font-size: 24px;
@@ -34,4 +34,36 @@
 
 .md-news-card--2 {
     background-image: url(/assets/img/sarfaraz2.jpeg);
+}
+
+.sm-news-card {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    transition: all .3s ease;
+    margin: 10px 0 10px 0;
+    background-color: #fff;
+    img {
+        width: 40%;
+        height: 100px;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        justify-content: space-between;
+        a.title {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        a.source {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
 }
