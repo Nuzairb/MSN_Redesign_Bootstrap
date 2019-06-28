@@ -9472,6 +9472,17 @@ body {
   border-top: 2px solid #000;
   margin: 20px 0; }
 
+.footer {
+  width: 100%;
+  margin-top: 100px; }
+  .footer .copyright {
+    list-style-type: none; }
+    .footer .copyright li img {
+      width: 40px;
+      height: 40px; }
+  .footer ul {
+    list-style-type: none; }
+
 .container {
   max-width: 1280px; }
 
